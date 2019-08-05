@@ -1,0 +1,126 @@
+.course-box{
+    width: 100%;
+    height: 100%;
+    /* background-image: url('./nugen-logo.png'); */
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.side-bar-box{
+    width: 15%;
+    height: 100%;
+    background: #323765;
+    /* border: 3px solid black; */
+    position: fixed;
+    /* border-radius: 30px; */
+    display: flex;
+    z-index: 3;
+}
+@media (min-width: 200px){
+    .side-bar-box{
+        width: 200px;
+    }
+}
+.heading{
+    width: 100%;
+    height: 60px;
+    background: #3617fd;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    /* margin-left: 150px; */
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px 0px 0px 0px;
+}
+.dashboard{
+    width: 200px;
+    height: 100%;
+    /* margin-top: 130px; */
+    /* display: flex; */
+    position: absolute;
+    color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+.main-app{
+    width:250px;
+    height: 30px;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+    color: gray;
+    font-size: 12px;
+}
+.account-app{
+    width:250px;
+    height: 30px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: gray;
+    font-size: 12px;
+}
+.upload-app{
+    width:250px;
+    height: 30px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: gray;
+    font-size: 12px;
+}
+.dashboard .dash{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: left;
+    color: #fff;
+    font-size: 17px;
+    transition: 0.3s;
+    padding: 18px 8px 18px 32px;
+}
+.fas{
+    margin-right: 10px;
+}
+/* @keyframes movemenu{
+        from{width:250px; height:50px;}
+        to{width:260px; height: 60px;}
+    } */
+.dash:hover{
+    background: #f1f1f1;
+    color: #000;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 0px 0px 0px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-left: -60px;
+    margin-top: 50px;
+    background: #1def2d;
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    width: 110px;
+    height: 50px;
+    /* box-shadow: 1px 2px 1px 2px #f1f1ff; */
+}
